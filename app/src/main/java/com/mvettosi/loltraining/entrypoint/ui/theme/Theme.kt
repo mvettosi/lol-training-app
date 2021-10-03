@@ -8,11 +8,11 @@ import androidx.compose.runtime.Composable
 
 private val DarkColorPalette =
     darkColors(
-        primary = Nord8,
-        primaryVariant = Nord7,
-        onPrimary = Nord0,
-        secondary = Nord9,
-        secondaryVariant = Nord10,
+        primary = Nord9,
+        primaryVariant = Nord10,
+        onPrimary = Nord6,
+        secondary = Nord8,
+        secondaryVariant = Nord7,
         onSecondary = Nord0,
         background = Nord0,
         onBackground = Nord5,
@@ -23,11 +23,11 @@ private val DarkColorPalette =
 
 private val LightColorPalette =
     lightColors(
-        primary = Nord8,
-        primaryVariant = Nord7,
-        onPrimary = Nord0,
-        secondary = Nord9,
-        secondaryVariant = Nord10,
+        primary = Nord9,
+        primaryVariant = Nord10,
+        onPrimary = Nord6,
+        secondary = Nord8,
+        secondaryVariant = Nord7,
         onSecondary = Nord0,
         background = Nord6,
         onBackground = Nord3,

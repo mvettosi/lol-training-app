@@ -8,7 +8,7 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/nord9</item>
         <item name="colorSecondaryVariant">@color/nord10</item>
-        <item name="colorOnSecondary">@color/nord0</item>
+        <item name="colorOnSecondary">@color/nord6</item>
         <!-- Background -->
         <item name="android:colorBackground">@color/nord6</item>
         <item name="colorOnBackground">@color/nord3</item>
