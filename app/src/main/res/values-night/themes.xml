@@ -4,11 +4,11 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/nord8</item>
         <item name="colorPrimaryVariant">@color/nord7</item>
-        <item name="colorOnPrimary">@color/nord4</item>
+        <item name="colorOnPrimary">@color/nord0</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/nord9</item>
         <item name="colorSecondaryVariant">@color/nord10</item>
-        <item name="colorOnSecondary">@color/nord6</item>
+        <item name="colorOnSecondary">@color/nord0</item>
         <!-- Background -->
         <item name="android:colorBackground">@color/nord0</item>
         <item name="colorOnBackground">@color/nord5</item>
