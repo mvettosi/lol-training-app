@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mvettosi.template">
+    package="com.mvettosi.loltraining">
 
     <application
         android:allowBackup="true"
@@ -10,9 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.template.NoActionBar"
-        android:name=".TemplateApp">
+        android:name="com.mvettosi.loltraining.TemplateApp">
         <activity
-            android:name=".entrypoint.ui.MainActivity"
+            android:name="com.mvettosi.loltraining.entrypoint.ui.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.template.NoActionBar">

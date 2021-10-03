@@ -8,7 +8,7 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "template"
+rootProject.name = "lol-training-app"
 
 include(":app")
 
