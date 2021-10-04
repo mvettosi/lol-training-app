@@ -1,4 +1,4 @@
-package com.mvettosi.loltraining.entrypoint.ui.lessons
+package com.mvettosi.loltraining.entrypoint.ui.tasks
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 
 @Composable
-fun LessonsScreen(navController: NavController) {
+fun TasksScreen(navController: NavController) {
   Column(
       modifier = Modifier.fillMaxSize(),
       horizontalAlignment = Alignment.CenterHorizontally,

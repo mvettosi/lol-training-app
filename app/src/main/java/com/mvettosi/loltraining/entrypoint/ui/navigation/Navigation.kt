@@ -10,19 +10,19 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.mvettosi.loltraining.entrypoint.ui.LogScreen
 import com.mvettosi.loltraining.entrypoint.ui.book.Book
-import com.mvettosi.loltraining.entrypoint.ui.lessons.LessonsScreen
+import com.mvettosi.loltraining.entrypoint.ui.tasks.TasksScreen
 
 @Composable
 fun Navigation(navController: NavHostController) {
   Scaffold(bottomBar = { LolBottomBar(navController = navController) }) {
     NavHost(
         navController = navController,
-        startDestination = Screen.Book.route,
+        startDestination = Screen.Tasks.route,
         modifier = Modifier.fillMaxSize()) {
       composable(Screen.Book.route) {
         Book(navController = navController, viewModel = hiltViewModel(it))
       }
-      composable(Screen.Lessons.route) { LessonsScreen(navController = navController) }
+      composable(Screen.Tasks.route) { TasksScreen(navController = navController) }
       composable(Screen.Log.route) { LogScreen(navController = navController) }
     }
   }

@@ -50,14 +50,15 @@ dependencies {
   implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
 
   // Compose
-  implementation("androidx.compose.ui:ui:1.0.2")
-  implementation("androidx.compose.material:material:1.0.2")
-  implementation("androidx.compose.ui:ui-tooling-preview:1.0.2")
+  implementation("androidx.compose.ui:ui:1.0.3")
+  implementation("androidx.compose.material:material:1.0.3")
+  implementation("androidx.compose.material:material-icons-extended:1.0.3")
+  implementation("androidx.compose.ui:ui-tooling-preview:1.0.3")
   implementation("androidx.activity:activity-compose:1.3.1")
   implementation(project(mapOf("path" to ":core")))
-  implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0-beta01")
-  debugImplementation("androidx.compose.ui:ui-tooling:1.0.2")
-  implementation("androidx.navigation:navigation-compose:2.4.0-alpha09")
+  implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0-rc01")
+  debugImplementation("androidx.compose.ui:ui-tooling:1.0.3")
+  implementation("androidx.navigation:navigation-compose:2.4.0-alpha10")
   implementation("androidx.hilt:hilt-navigation-compose:1.0.0-alpha03")
 
   // Hilt
@@ -75,7 +76,7 @@ dependencies {
   // AndroidTest
   androidTestImplementation("androidx.test.ext:junit:1.1.3")
   androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
-  androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.2")
+  androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.3")
 }
 
 tasks {

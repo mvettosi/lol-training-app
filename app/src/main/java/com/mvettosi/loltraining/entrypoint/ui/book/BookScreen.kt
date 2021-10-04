@@ -22,6 +22,6 @@ fun Book(navController: NavController, viewModel: BookViewModel) {
       verticalArrangement = Arrangement.SpaceEvenly) {
     Text(text = "Hello ${nameState ?: "Unknown"}!")
     Button(onClick = { viewModel.refreshName() }) { Text(text = "Load name") }
-    Button(onClick = { navController.navigate(Screen.Lessons.route) }) { Text(text = "Navigate") }
+    Button(onClick = { navController.navigate(Screen.Tasks.route) }) { Text(text = "Navigate") }
   }
 }

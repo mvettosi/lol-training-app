@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">LoL Training</string>
     <string name="book_screen_label">Book</string>
-    <string name="lessons_screen_label">Lessons</string>
+    <string name="tasks_screen_label">Tasks</string>
     <string name="log_screen_label">Log Game</string>
+    <string name="book_screen_desc">Book a coaching session</string>
+    <string name="tasks_screen_desc">Review current lessons</string>
+    <string name="log_screen_desc">Log a game</string>
 </resources>
