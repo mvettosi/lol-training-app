@@ -1,4 +1,4 @@
-package com.mvettosi.loltraining.entrypoint.ui.home
+package com.mvettosi.loltraining.entrypoint.ui.book
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
 @HiltViewModel
-class HomeViewModel @Inject constructor(private val getNameUseCase: GetNameUseCase) : ViewModel() {
+class BookViewModel @Inject constructor(private val getNameUseCase: GetNameUseCase) : ViewModel() {
   private val _name = MutableStateFlow<Name?>(null)
   val name: StateFlow<Name?> = _name
 
